@@ -36,7 +36,7 @@ class RemoveDuplicatesFromString
 	{ 
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();
-		char str[] = "geeksforgeeks".toCharArray(); 
+		char str[] = s.toCharArray(); 
 		int n = str.length; 
 		System.out.println(removeDuplicate(str, n)); 
 	} 
